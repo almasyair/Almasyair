@@ -1,0 +1,93 @@
+
+.hero {
+    background: url("sulthan-auliya-rzzS0_pMsD0-unsplash.jpg") no-repeat center
+      center/cover;
+    color: white;
+    text-align: center;
+    padding: 140px 50px;
+  }
+  .hero h1 {
+    margin-left: 10rem;
+    gap: 10px;
+    font-size: 70px;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    
+  }
+  .hero p {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  .hero .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .hero .buttons a {
+    background-color: #0a3d3f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 50px;
+  }
+  .buttons a:first-child {
+    background-color: #0a3d3f;
+    color: white;
+  }
+  .buttons a:first-child:hover {
+    background-color:  #e8e8d8;
+   color: #0a3d3f;
+  }
+  .buttons a:nth-child(2) {
+    background-color: #e8e8d8;
+    color: #0a3d3f;
+  }
+  .buttons a:nth-child(2):hover {
+    background-color: #0a3d3f;
+    color: #ffffff;;
+  }
+  .container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    color: #fff;
+    justify-content: center;
+}
+.card:nth-child(1) {
+    background-color: #1b3b32;
+}
+.card:nth-child(2) {
+    background-color: #1b3b32;
+}
+.card:nth-child(3) {
+    background-color: #1b3b32;
+}
+.card:nth-child(4) {
+    background-color: #e8e8d8;
+    color: #1b3b32;
+}
+.card h3 {
+    margin-top: 0;
+}
+.card p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+.card a {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.card a i {
+    margin-right: 10px;
+}

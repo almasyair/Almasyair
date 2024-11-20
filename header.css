@@ -1,0 +1,33 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .headers {
+    background-color: #0a3d3f;
+    color: white;
+    padding: 15px 0;
+    
+  }
+  .headers .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .headers .container .logo {
+    margin-left: -4rem;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .headers .container .nav {
+    display: flex;
+    gap: 20px;
+  }
+  .headers .container .nav a {
+    color: white;
+    text-decoration: none;
+  }
